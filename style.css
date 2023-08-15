@@ -148,7 +148,7 @@ button{
    border-radius: 10px;
    width: 80%;
    height: 150px;
-   margin: 15px 0;
+   margin: 17px 0;
    margin-left: 20px;
    display: flex;
    flex-direction: column;
@@ -174,9 +174,73 @@ button{
    justify-content: flex-end;
    align-items: center;
    width: 90%;
+   gap: 18px;
 }
 
 .projects > h4{
     margin-left: 20px;
     margin-top: 20px;
 }
+
+.announcement > h4{
+    margin-bottom: 14px;
+    margin-top: 20px;
+}
+
+.others{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.news, .trends{
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.announce > h6{
+    font-size: 0.7em;
+}
+
+.announce > p{
+    font-size: 0.6em;
+    color: #737373;
+}
+
+.announce{
+    padding: 15px;
+}
+
+.border{
+    border: 0.5px solid  #737373;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.trending > h4{
+    margin-bottom: 6px;
+    margin-top: 15px;
+}
+
+.users > img{
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+}
+
+.update{
+    display: flex;
+    align-items: center;
+    /* margin: 10px; */
+    padding-top: 17px;
+    padding-left: 17px;
+    gap: 10px;
+}
+
+
+.username > p{
+    font-size: 0.8em;
+    color: #737373;
+}
+
