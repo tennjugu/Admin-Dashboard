@@ -1,0 +1,55 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+ }
+ .wrapper{
+    display: grid;
+    grid-template-columns: 25% 75%;
+ }
+
+.sidebar{
+    background:#0ea5e9;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-page{
+    background: white;
+    height: 100vh;
+}
+
+.dashboard > img{
+    height: 45px;
+}
+
+.sidebar-icons > img{
+    height: 24px;
+}
+
+.sidebar-icons, .dashboard{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dashboard {
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+
+.sidebar-icons{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.sidebar-icons:nth-child(6){
+    margin-bottom: 35px;
+}
+
