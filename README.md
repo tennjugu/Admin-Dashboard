@@ -5,8 +5,8 @@ This is an admin dashboard project built as part of The Odin Project's curriculu
 
 The dashboard simulates a user's admin account, providing various features to manage projects, stay updated with announcements, and engage with trending posts within the community. Users can also interact with the dashboard, such as uploading new posts and sharing their profile links.
 
-![Dashboard Screenshot](screenshot.png)
-![Original design](screenshot.png)
+![Dashboard Screenshot](./img/Screenshot.png)
+![Original design](./img/dashboard-project.png)
 ## Features
 
 - **Completed Projects**: Displays a list of completed projects for the user.
